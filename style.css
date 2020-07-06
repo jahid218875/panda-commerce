@@ -20,5 +20,53 @@
     cursor: pointer;
 }
 buy-now-button:hover{
-    background-image: linear-gradient(to bottom, #FF136F 100%, #FF589B 0%);
+    background-image: linear-gradient(to bottom, #FF136F 80%, #FF589B 20%);
+}
+.cat1{
+    background-image: linear-gradient(to right, #ff9d34, #ffd019);
+    padding: 10px 30px;
+    color: white;
+    border-radius: 10px;
+}
+.cat2{
+    background-image: linear-gradient(to right, #ff3f8b, #ff3384);
+    padding: 10px 30px;
+    color: white;
+    border-radius: 10px;
+}
+.cat3{
+    background-image: linear-gradient(to right, #4172fe, #3f08f8);
+    padding: 10px 30px;
+    color: white;
+    border-radius: 10px;
+}
+.categories img{
+    width: 100px;
+}
+.card{
+    border: none;
+    box-shadow: 5px 5px 10px lightgray;
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+}
+.card-footer{
+    border-top: none;
+    background: white;
+}
+#subscribe{
+    height: 300px;
+}
+#subscribe h6{
+    color: gray;
+}
+.send-mail{
+    padding: 10px 70px;
+    color: gray;
+    border-radius: 5px;
+    border: none;
+}
+footer{
+    text-align: center;
+    color: gray;
 }
