@@ -22,6 +22,10 @@
 buy-now-button:hover{
     background-image: linear-gradient(to bottom, #FF136F 80%, #FF589B 20%);
 }
+.bg-color{
+    background-color: #f8f9fa;
+    padding: 100px 0 30px 0;
+}
 .cat1{
     background-image: linear-gradient(to right, #ff9d34, #ffd019);
     padding: 10px 30px;
@@ -56,6 +60,7 @@ buy-now-button:hover{
 }
 #subscribe{
     height: 300px;
+    margin-top: 100px;
 }
 #subscribe h6{
     color: gray;
